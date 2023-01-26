@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Shadows+Into+Light&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+
+}
+
+h1 {
+    text-align: left;
+    font-family:'Kalam', cursive;     
+    display: inline-flexbox;
+    vertical-align: top;
+    position: relative;
+    top: 60px; left: 40px;
+}
+.imagen{
+    width:100%;
+}
+
+ .logo{
+   height: 200px;
+   display: inline-block;
+   position: relative;
+   bottom: 200px;
+   left: 900px;
+ }
+
+header{
+    
+    vertical-align: top;
+
+}
+h2{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+a {
+    display: block;
+    text-align:left;
+    margin: 60px;
+}
+nav{
+    display: inline-block;
+    width: 200px;
+}
+
+section{ 
+    display:inline-block;
+    text-align: right;
+    width: 300px;
+    top: 50px;
+    }
+ 
+
+    aside{
+        display: inline-block;
+        text-align: left;
+    }
+
+
+    main{
+        display: inline-block;
+    }
+    
+    .cajamision {
+        
+        display: block;
+        text-align:center;
+        margin: 60px;
+    }
+
+    .cajavision{
+     display: block;
+     text-align: center;
+     margin:50px;
+    }
+
+    .cajageneral{
+        display: block;
+        text-align: center;
+        margin:50px;
+    }
+    
