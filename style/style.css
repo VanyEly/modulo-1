@@ -11,32 +11,40 @@
 h1 {
     text-align: left;
     font-family:'Kalam', cursive;     
-    display: inline-flexbox;
+    display: inline-block;
     vertical-align: top;
     position: relative;
     top: 60px; left: 40px;
+    color: aliceblue;
+    
 }
 .imagen{
     width:100%;
+    margin: 0%;
 }
 
  .logo{
    height: 200px;
    display: inline-block;
    position: relative;
-   bottom: 200px;
+   bottom: 220px;
    left: 900px;
  }
 
 header{
     
     vertical-align: top;
+  
 
 }
+
 h2{
     background-color: black;
     text-align: center;
     color: white;
+    height: 60px;
+    position: relative;
+    bottom:250px;
 }
 a {
     display: block;
@@ -46,13 +54,17 @@ a {
 nav{
     display: inline-block;
     width: 200px;
+    position: relative;
+    top: 0px;
 }
 
 section{ 
     display:inline-block;
-    text-align: right;
+    text-align: left;
     width: 300px;
     top: 50px;
+    
+ 
     }
  
 
@@ -64,24 +76,15 @@ section{
 
     main{
         display: inline-block;
+        position: relative;
+    bottom: 250px;
     }
     
-    .cajamision {
-        
-        display: block;
-        text-align:center;
-        margin: 60px;
-    }
-
-    .cajavision{
-     display: block;
-     text-align: center;
-     margin:50px;
-    }
-
-    .cajageneral{
-        display: block;
-        text-align: center;
-        margin:50px;
-    }
-    
+    .texto{
+        display: inline-block;
+        translate: 100px;
+        width: 100vh;
+        text-align: left;
+        position: relative;
+        bottom:250px;
+       }
