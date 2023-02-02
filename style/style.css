@@ -8,22 +8,184 @@
 
 }
 
-h1 {
-    text-align: left;
-    font-family:'Kalam', cursive;     
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    top: 60px; left: 40px;
-    color: aliceblue;
-    
-}
-.imagen{
-    width:100%;
-    margin: 0%;
+header{
+background-image:url(../assets/design1_image1.jpg);
+background-position-y: -200px;
+background-position-x: center;
+background-repeat: no-repeat;
+height: 35vh;
 }
 
- .logo{
+main{
+    background-color:  rgb(235, 239, 215);
+    min-height: 75vh;
+   
+}
+
+
+h1{
+    color:yellow;
+    word-spacing: 0.30em;
+    text-indent: 20px;
+    text-shadow: -1px -1px 1px red
+}
+
+.login{
+    height: 150px;
+   
+    position: relative;
+    bottom: -100px;
+    left: 140vh;
+  
+
+}
+
+
+nav{
+    background-color: black;
+    height: 5vh;
+    width: 100%;
+}
+
+ nav h2 {
+    color: aliceblue;
+    text-align: center;
+  
+}
+
+.bar {
+
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin: 1rem;
+  flex-direction: column;
+  width: 140px;
+position: absolute;
+
+}
+ .bar a {
+    height: 20%;
+    color: aliceblue;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border: 1px solid yellow;
+    border-radius: 1rem;
+   }
+   .bar a:hover {
+    background-color:red; 
+    color: white;
+    
+}
+
+.contents{
+justify-content: center;
+ display:inline-block;
+ text-align: left;
+ left: 26vh;
+ width: 70%;
+ position: relative;
+ margin-top: 10px;
+}
+
+  
+.contents p {
+    display: inline-block;
+    translate: 100px;
+    width: 100vh;
+    text-align: left;
+    position: relative;
+    bottom:250px;
+    
+ 
+}
+
+aside{
+    justify-content: center;
+    display:inline-block;
+    text-align: left;
+    left: 30vh;
+    width: 70%;
+    position: relative;
+    margin-top: 10px;
+}
+
+.image img{
+    height: 200px;
+    width: 200px;
+   border-radius: 1rem;
+   display: inline-flex;
+   transition: all 0.5s;
+   }
+
+
+
+.image{
+    display: inline-block;
+     justify-items: center;
+     margin: 3rem;
+     
+}
+ p {
+    text-align: left;
+    margin: 20px;
+ }
+
+#title{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*.logo{
    height: 200px;
    display: inline-block;
    position: relative;
@@ -31,20 +193,21 @@ h1 {
    left: 900px;
  }
 
-header{
-    
-    vertical-align: top;
-  
 
-}
 
 h2{
     background-color: black;
-    text-align: center;
+   
     color: white;
     height: 60px;
-    position: relative;
-    bottom:250px;
+   position: relative;
+   bottom:250px;
+   min-width: 5vh;
+   text-decoration: none;
+   font-size: 1,5rem;
+    text-align: center;
+    height: 5vh;
+
 }
 a {
     display: block;
@@ -87,4 +250,5 @@ section{
         text-align: left;
         position: relative;
         bottom:250px;
-       }
+       } 
+    */
