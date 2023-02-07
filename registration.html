@@ -30,17 +30,17 @@
 
     </main>
     <div class="registration">
-        <form action="./show_data" method="get">
+        <form action="./show_data.html" method="get">
             <fieldset><label for="name">Player´s First Name:</label>
                 <input type="text" name="name" id="name">
                 <label>
                     Last Name:
-                    <input type="text" name="last name" id="last name">
+                    <input type="text" name="lastname" id="lastname">
                 </label>
             </fieldset>
             <fieldset><label>
                     Street Address:
-                    <input type="text" name="street address" id="street address">
+                    <input type="text" name="streetaddress" id="streetaddress">
                 </label>
             </fieldset>
             <fieldset>
@@ -50,16 +50,17 @@
                 </label>
                 <label>
                     Zip Code:
-                    <input type="number" name="zip code" id="zip code">
+                    <input type="number" name="zipcode" id="zipcode">
                 </label>
             </fieldset>
             <fieldset>
                 <label>
                     Birth Date(mm/dd/yyyy):
-                    <input type="date" name="birth date" id="birth date">
-                    <legend> Gender:</legend>
-                </label>
+                    <input type="date" name="birthdate" id="birthdate">
 
+                </label>
+                <fieldset>
+                <legend>Gender:</legend>
                 <label>
                     Female
                     <input type="radio" name="gender">
@@ -69,10 +70,11 @@
                     <input type="radio" name="gender">
                 </label>
             </fieldset>
+            </fieldset>
             <fieldset>
-
+                <legend>Grade:</legend>
                 <label>
-                    <legend>Grade:</legend>
+
                     Pre-School
                     <input type="radio" name="grade">
                 </label><label>
@@ -97,31 +99,31 @@
                 <legend>Closest School:</legend>
                 <label>
                     AJ Katzenmaier
-                    <input type="checkbox" name="closest school1" value="AJ Katzenmaier">
+                    <input type="checkbox" name="closestschool1" value="AJ Katzenmaier">
                 </label>
                 <label>
                     Greenbay
-                    <input type="checkbox" name="closest school2" value="Greenbay">
+                    <input type="checkbox" name="closestschool2" value="Greenbay">
                 </label>
                 <label>
                     Howard A Yeager
-                    <input type="checkbox" name="closest school3" value="Howard A Yeager">
+                    <input type="checkbox" name="closestschool3" value="Howard A Yeager">
                 </label>
                 <label>
                     Marjorie P Hart
-                    <input type="checkbox" name="closest school4" value="Marjorie P Hart">
+                    <input type="checkbox" name="closestschool4" value="Marjorie P Hart">
                 </label>
                 <label>
                     North Elementary
-                    <input type="checkbox" name="closest school5" value="North Elementary">
+                    <input type="checkbox" name="closestschool5" value="North Elementary">
                 </label>
                 <label>
                     South Elementary
-                    <input type="checkbox" name="closest school6" value="South Elementary">
+                    <input type="checkbox" name="closestschool6" value="South Elementary">
                 </label>
                 <label>
                     AJ Katzenmaier
-                    <input type="checkbox" name="closest school">
+                    <input type="checkbox" name="closestschool">
                 </label>
             </fieldset>
             <h3>What position(s) do you normally play?(check all that apply)</h3>
@@ -142,48 +144,56 @@
                 </label>
             </fieldset>
             <fieldset>
-            <h3>Uniform Size</h3>
-            <label> 
-                Youth Smal
-                <input type="radio" name="Uniform Size">
-            </label>
-            <label> 
-                Youth Medium
-                <input type="radio" name="Uniform Size">
-            </label><label> 
-                Youth Large
-                <input type="radio" name="Uniform Size">
-            </label><label> 
-                Small
-                <input type="radio" name="Uniform Size">
-            </label><label> 
-                Medium
-                <input type="radio" name="Uniform Size">
-            </label><label> 
-                Large
-                <input type="radio" name="Uniform Size">
-            </label><label> 
-                Extra-Large
-                <input type="radio" name="Uniform Size">
-            </label>
-        </fieldset>
-      <input type="submit" value="enviar datos">
-    </form>
-       <div id="permission"> <h3>Permission to Play</h3>
-         <p> 1.the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge,and/or otherwise indemnify MDHL,their employees and associated personnel and volunteer, including the facilities used for practices, and games, against any claim by or on behalf of the registrant as a result of the registrant´s participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation.
-             By signing below,I herebyagree andauthorizethe above.In addition, by signing below, lalso acknowledge that I have reade the cancellation policy and agree to its terms.</p>
-             </div>
-             <form action="./show_data" method="get">
-             <label>
+                <h3>Uniform Size</h3>
+                <label>
+                    Youth Smal
+                    <input type="radio" name="UniformSize">
+                </label>
+                <label>
+                    Youth Medium
+                    <input type="radio" name="UniformSize">
+                </label><label>
+                    Youth Large
+                    <input type="radio" name="UniformSize">
+                </label><label>
+                    Small
+                    <input type="radio" name="UniformSize">
+                </label><label>
+                    Medium
+                    <input type="radio" name="UniformSize">
+                </label><label>
+                    Large
+                    <input type="radio" name="UniformSize">
+                </label><label>
+                    Extra-Large
+                    <input type="radio" name="UniformSize">
+                </label>
+            </fieldset>
+            <input type="submit" value="enviar datos">
+        </form>
+        <div id="permission">
+            <h3>Permission to Play</h3>
+            <p> 1.the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                associated with hockey and in consideration for the "League" accepting the registrant for its hockey
+                programs and activities, I hereby release, discharge,and/or otherwise indemnify MDHL,their employees and
+                associated personnel and volunteer, including the facilities used for practices, and games, against any
+                claim by or on behalf of the registrant as a result of the registrant´s participation in the
+                programand/orbeing transported to or from MDHL sponsored activities,which transportation.
+                By signing below,I herebyagree andauthorizethe above.In addition, by signing below, lalso acknowledge
+                that I have reade the cancellation policy and agree to its terms.</p>
+        </div>
+        <form action="./show_data.html" method="get">
+            <label>
                 Parent/GuardianSignature:
                 <input type="text" name="nameParent" id="nameParent">
-             </label>
-             <label>
+            </label>
+            <label>
                 Date
                 <input type="date">
-             </label>
+            </label>
         </form>
-        
+
     </div>
 </body>
 

@@ -74,7 +74,7 @@ nav h2 {
     color: white;
     display: inline-block;
     margin: 0;
-    margin-top: 50px;
+    margin-top: 0px;
     flex-direction: column;
     width: 140px;
     position: absolute;
@@ -127,7 +127,7 @@ aside {
     left: 30vh;
     width: 70%;
     position: relative;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .image img {
@@ -141,9 +141,8 @@ aside {
 
 
 .image {
-    display: inline-block;
-    justify-items: center;
-    margin: 3rem;
+   display: flex;
+   justify-content: flex-end;
 
 }
 
@@ -152,21 +151,23 @@ p {
     margin: 20px;
 }
 
-#title {
-    text-align: center;
-    display: block;
-}
+
 
 .maps {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-content: left;
+    margin: 0%;
+    margin-top: 80px;
+
 }
 
 iframe {
     border-radius: 1rem;
     border: 2px solid rgb(187, 177, 152);
     margin: 1rem;
+    display: inline;
 }
 
  .registration{
@@ -178,3 +179,22 @@ width: 70%;
 margin-top: 56px;
 margin-left: 215px;
 }
+
+.conteiner{
+    margin-top: 40px;
+}
+ .maps h2{
+    display: block
+ }
+
+ th{
+    width: 30%;
+ }
+
+ dt{
+    font-weight: bold;
+ }
+ 
+ #index_section {
+    margin-top: 45px;
+ }
