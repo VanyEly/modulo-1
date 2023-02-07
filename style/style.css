@@ -16,13 +16,23 @@ header {
     height: 35vh;
 }
 
-main {
-    background-color: rgb(235, 239, 215);
-    min-height: 75vh;
+body {
+    
+   background-color: rgb(235, 239, 215);
 
 }
+ 
+@media only screen and(min-width:320px) and (max-width:425px){
+ main{
+    background-color: rgb(190, 64, 64);
+ }
+}
+@media only screen and(min-width:426px)and(max-width:768px){
+    main{
+        background-color: rgba(212, 212, 104, 0.648);
 
-
+    }
+}
 h1 {
     color: yellow;
     word-spacing: 0.30em;
@@ -43,22 +53,28 @@ h1 {
 
 nav {
     background-color: black;
-    height: 5vh;
+    height: 10vh;
     width: 100%;
 }
+
 
 nav h2 {
     color: aliceblue;
     text-align: center;
 
 }
-
+@media only screen and (max-width: 375px) {
+    nav h2 { 
+        color: black;
+    }
+}
 .bar {
 
     background-color: black;
     color: white;
     display: inline-block;
-    margin: 1rem;
+    margin: 0;
+    margin-top: 50px;
     flex-direction: column;
     width: 140px;
     position: absolute;
@@ -138,6 +154,7 @@ p {
 
 #title {
     text-align: center;
+    display: block;
 }
 
 .maps {
@@ -154,20 +171,10 @@ iframe {
 
  .registration{
     background-color:rgb(235, 239, 215);
-   display: flex;
-   justify-content: flex-end;
-   align-items: flex-end;
-   flex-direction: column;
-   flex-wrap: nowrap;
-position: relative;
+  justify-content: center;
+text-align: left;
+float: left;
 width: 70%;
-
+margin-top: 56px;
+margin-left: 215px;
 }
-
- {
-   
-}
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         qaw
