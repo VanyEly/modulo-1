@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Shadows+Into+Light&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,49 +8,49 @@
 
 }
 
-header{
-background-image:url(../assets/design1_image1.jpg);
-background-position-y: -200px;
-background-position-x: center;
-background-repeat: no-repeat;
-height: 35vh;
+header {
+    background-image: url(../assets/design1_image1.jpg);
+    background-position-y: -200px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 35vh;
 }
 
-main{
-    background-color:  rgb(235, 239, 215);
+main {
+    background-color: rgb(235, 239, 215);
     min-height: 75vh;
-   
+
 }
 
 
-h1{
-    color:yellow;
+h1 {
+    color: yellow;
     word-spacing: 0.30em;
     text-indent: 20px;
     text-shadow: -1px -1px 1px red
 }
 
-.login{
+.login {
     height: 150px;
-   
+
     position: relative;
     bottom: -100px;
     left: 140vh;
-  
+
 
 }
 
 
-nav{
+nav {
     background-color: black;
     height: 5vh;
     width: 100%;
 }
 
- nav h2 {
+nav h2 {
     color: aliceblue;
     text-align: center;
-  
+
 }
 
 .bar {
@@ -59,12 +59,13 @@ nav{
     color: white;
     display: inline-block;
     margin: 1rem;
-  flex-direction: column;
-  width: 140px;
-position: absolute;
+    flex-direction: column;
+    width: 140px;
+    position: absolute;
 
 }
- .bar a {
+
+.bar a {
     height: 20%;
     color: aliceblue;
     padding: 1rem;
@@ -73,38 +74,39 @@ position: absolute;
     gap: 1rem;
     border: 1px solid yellow;
     border-radius: 1rem;
-   }
-   .bar a:hover {
-    background-color:red; 
+}
+
+.bar a:hover {
+    background-color: red;
     color: white;
-    
+
 }
 
 section {
-justify-content: center;
- display:inline-block;
- text-align: left;
- left: 26vh;
- width: 70%;
- position: relative;
- margin-top: 10px;
+    justify-content: center;
+    display: inline-block;
+    text-align: left;
+    left: 26vh;
+    width: 70%;
+    position: relative;
+    margin-top: 10px;
 }
 
-  
+
 section p {
     display: inline-block;
     translate: 100px;
     width: 100vh;
     text-align: left;
     position: relative;
-    bottom:250px;
-    
- 
+    bottom: 250px;
+
+
 }
 
-aside{
+aside {
     justify-content: center;
-    display:inline-block;
+    display: inline-block;
     text-align: left;
     left: 30vh;
     width: 70%;
@@ -112,147 +114,60 @@ aside{
     margin-top: 10px;
 }
 
-.image img{
+.image img {
     height: 200px;
     width: 200px;
-   border-radius: 1rem;
-   display: inline-flex;
-   transition: all 0.5s;
-   }
-
-
-
-.image{
-    display: inline-block;
-     justify-items: center;
-     margin: 3rem;
-     
+    border-radius: 1rem;
+    display: inline-flex;
+    transition: all 0.5s;
 }
- p {
+
+
+
+.image {
+    display: inline-block;
+    justify-items: center;
+    margin: 3rem;
+
+}
+
+p {
     text-align: left;
     margin: 20px;
- }
+}
 
-#title{
+#title {
     text-align: center;
 }
 
-.collapse {
-    border-collapse: collapse;
-  }
-  
+.maps {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
+iframe {
+    border-radius: 1rem;
+    border: 2px solid rgb(187, 177, 152);
+    margin: 1rem;
+}
 
+ .registration{
+    background-color:rgb(235, 239, 215);
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   flex-direction: column;
+   flex-wrap: nowrap;
+position: relative;
+width: 70%;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /*.logo{
-   height: 200px;
-   display: inline-block;
-   position: relative;
-   bottom: 220px;
-   left: 900px;
- }
-
-
-
-h2{
-    background-color: black;
+ {
    
-    color: white;
-    height: 60px;
-   position: relative;
-   bottom:250px;
-   min-width: 5vh;
-   text-decoration: none;
-   font-size: 1,5rem;
-    text-align: center;
-    height: 5vh;
-
-}
-a {
-    display: block;
-    text-align:left;
-    margin: 60px;
-}
-nav{
-    display: inline-block;
-    width: 200px;
-    position: relative;
-    top: 0px;
 }
 
-section{ 
-    display:inline-block;
-    text-align: left;
-    width: 300px;
-    top: 50px;
-    
- 
-    }
- 
-
-    aside{
-        display: inline-block;
-        text-align: left;
-    }
 
 
-    main{
-        display: inline-block;
-        position: relative;
-    bottom: 250px;
-    }
-    
-    .texto{
-        display: inline-block;
-        translate: 100px;
-        width: 100vh;
-        text-align: left;
-        position: relative;
-        bottom:250px;
-       } 
-    */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         qaw
